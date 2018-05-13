@@ -237,13 +237,14 @@ body, html {
 
   /* Mobiles */
 
-  @media screen and (max-width: 375px) {
+
+  /* @media screen and (max-width: 375px) {
      #close {
       top: 50%;
       right: 5%;
       font-size: 20px;
     }
-  }
+  } */
 
   @media screen and (max-width: 480px) {
 #dropdown-hide {
@@ -363,7 +364,6 @@ body, html {
     }
 
     #close {
-      top: 20%;
       right: 5%;
       font-size: 20px;
     }
