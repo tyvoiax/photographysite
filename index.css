@@ -346,6 +346,10 @@ body, html {
       float: left;
     }
 
+    /* Hide heart and share on small screens */
+    .box:hover .heart, .box:hover .share {
+      display: none;
+    }
     #modal {
       position: fixed;
       top: 0;
