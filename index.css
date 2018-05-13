@@ -357,6 +357,7 @@ body, html {
     }
 
     #close {
+      top: 20%;
       right: 5%;
       font-size: 20px;
     }
