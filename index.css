@@ -175,13 +175,14 @@ body, html {
     width: 80%;
     height: 80%;
     margin: 6% auto;
+    position: relative;
   }
 
   /*Position the close button on the modal content*/
   #close {
     position: absolute;
-    top: 10%;
-    right: 12%;
+    top: 2%;
+    right: 3%;
     font-size: 30px;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.4);
@@ -235,6 +236,8 @@ body, html {
    /* Media Queries */
 
   /* Mobiles */
+
+
 
   @media screen and (max-width: 480px) {
 #dropdown-hide {
@@ -350,18 +353,31 @@ body, html {
       width: 100vw;
       height: 50vh;
       margin: 50% auto;
+      position: relative;
     }
 
     #close {
-      position: absolute;
-      top: 25%;
-      right: 12%;
+      right: 5%;
       font-size: 20px;
-      cursor: pointer;
-      color: rgba(0, 0, 0, 0.4);
     }
     
   }
   .dropdown-menu img, .show-menu img {
     width: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    #modal-content {
+      /* background: #fff; */
+      width: 60vw;
+      height: 80vh;
+      margin: 5% auto;
+      position: relative;
+    }
+  }
+
+  @media screen and (min-width: 1700px) {
+    #modal-content {
+      margin: 1% auto;
+    }
   }
